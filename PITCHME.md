@@ -38,7 +38,7 @@ const state = {
 }
 ```
 
- ---
+---
 
  #### Mutations
 
@@ -51,7 +51,7 @@ increment: (state, newCounterValue) => {
 ```
 
 
- ---
+---
 
  #### Actions
 
@@ -68,6 +68,8 @@ incrementCounter: ({store}) => {
   dispatch('increment', ++newValue)
 }
 ```
+
+---
 
 #### Multiple commits in one action
 
@@ -93,7 +95,7 @@ actions: {
 
 source: https://vuex.vuejs.org/en/actions.html
 
- ---
+---
 
  #### Getters
 
@@ -109,4 +111,5 @@ bookableTrades: state => state.trades.filter(trade => trade.status !== 'DISABLED
  ### Vuex-counter Example
 
 live code again!
+
 ---
