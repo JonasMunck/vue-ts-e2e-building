@@ -5,7 +5,7 @@
 
 - Typescript 101
 - Vuex (with TS)
-- E2E with nightwathc
+- E2E with nightwatch
 - Our build pipeline
 
 ---
